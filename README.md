@@ -10,28 +10,28 @@ Featured code was written by the author, Daniel Voss.
 
 # Files By Usage
 
-## Data acquired from the Japanese Ministry of Land, Infrastructure, Transport and Tourism
+### Data acquired from the Japanese Ministry of Land, Infrastructure, Transport and Tourism
 * run_folder.sh
 * extract_means.py
 
-## Optimization of old river routing algorithm (see River-Routing-Process-Time.jpg)
+### Optimization of old river routing algorithm (see River-Routing-Process-Time.jpg)
 * calc_rivnxl_update.f
 
-## Bash processes for upscaling resolution (using GMT)
+### Bash processes for upscaling resolution (using GMT)
 * region_conversion.sh
 * region_conversion_gl5.sh
 
-## Files for computing hydro power potential (in order of use)
+### Files for computing hydro power potential (in order of use)
 1. calc_usadis.sh (prep river flow data)
 2. hydro.sh (Bash file for organizing input data, and settings)
 3. hydro.f (Main Fortran Script)
 
-## Comparing riverflow against observation data
+### Comparing riverflow against observation data
 * find_riv_data.sh
 * prep_riv_data_all.sh
 * batch_compute_riv_data.sh
 * compute_coefficients_batch.py
 
-## Comparing hydropower to the Japanese Ministry of the Environment's survey
+### Comparing hydropower to the Japanese Ministry of the Environment's survey
 * accuracy.sh
 * accuracy.f
